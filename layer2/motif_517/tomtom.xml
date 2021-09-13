@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.1.0" release="Fri Oct 11 15:53:28 2019 -0700">
+  <model>
+    <command_line>tomtom -no-ssc -o result/xtx/xtx.out result/xtx/xtx.meme ../../../JASPAR2020.txt</command_line>
+    <distance_measure value="ed"/>
+    <threshold type="qvalue">0.5</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="--query--" A="0.25" C="0.25" G="0.25" T="0.25"/>
+    <host>localhost.localdomain</host>
+    <when>Sat Oct  3 15:53:23 2020</when>
+  </model>
+  <query_dbs>
+    <db source="result/xtx/xtx.meme" name="xtx" loaded="1" excluded="0" last_mod_date="Sat Oct  3 15:53:23 2020"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="../../../JASPAR2020.txt" name="JASPAR2020.txt" loaded="1011" excluded="0" last_mod_date="Wed Sep 23 18:44:45 2020"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="0517_27279_13.8381_13.1695" length="51" nsites="998">
+      <pos A="0.148307" C="0.626215" G="0.0911979" T="0.134281"/>
+      <pos A="0.380749" C="0.216436" G="0.28156" T="0.121255"/>
+      <pos A="0.156322" C="0.65527" G="0.110234" T="0.0781732"/>
+      <pos A="0.238478" C="0.0992131" G="0.131275" T="0.531034"/>
+      <pos A="0.0911979" C="0.0841846" G="0.0411029" T="0.783514"/>
+      <pos A="0.0861884" C="0.0591371" G="0.040101" T="0.814572"/>
+      <pos A="0.665956" C="0.108339" G="0.107336" T="0.118368"/>
+      <pos A="0.0661504" C="0.806557" G="0.0551295" T="0.0721618"/>
+      <pos A="0.0781732" C="0.798542" G="0.0471143" T="0.0761694"/>
+      <pos A="0.0720898" C="0.103118" G="0.0480682" T="0.776724"/>
+      <pos A="0.0451105" C="0.0380972" G="0.0531257" T="0.863666"/>
+      <pos A="0.0250725" C="0.0290801" G="0.0220668" T="0.92378"/>
+      <pos A="0.0220888" C="0.0872783" G="0.0140656" T="0.876567"/>
+      <pos A="0.0810979" C="0.803749" G="0.0360574" T="0.0790961"/>
+      <pos A="0.05012" C="0.110234" G="0.791529" T="0.0481162"/>
+      <pos A="0.0390991" C="0.795536" G="0.090196" T="0.0751675"/>
+      <pos A="0.0461584" C="0.0421468" G="0.0822638" T="0.82943"/>
+      <pos A="0.786519" C="0.119251" G="0.0541276" T="0.040101"/>
+      <pos A="0.0430637" C="0.0420628" G="0.0610799" T="0.853793"/>
+      <pos A="0.854648" C="0.0360934" G="0.0471143" T="0.0621428"/>
+      <pos A="0.060139" C="0.05012" G="0.0421048" T="0.847635"/>
+      <pos A="0.870679" C="0.0491181" G="0.0421048" T="0.0380972"/>
+      <pos A="0.020063" C="0.936805" G="0.0120478" T="0.0310839"/>
+      <pos A="0.926786" C="0.0461124" G="0.0130497" T="0.0140516"/>
+      <pos A="0.0360574" C="0.943874" G="0.0120358" T="0.00803225"/>
+      <pos A="0.882585" C="0.0381352" G="0.0411439" T="0.0381352"/>
+      <pos A="0.824415" C="0.0431497" G="0.0341236" T="0.0983102"/>
+      <pos A="0.792323" C="0.0932957" G="0.0602" T="0.0541816"/>
+      <pos A="0.0651485" C="0.812569" G="0.0150535" T="0.107228"/>
+      <pos A="0.904744" C="0.0270763" G="0.0210649" T="0.0471143"/>
+      <pos A="0.106226" C="0.0230687" G="0.15532" T="0.715384"/>
+      <pos A="0.137286" C="0.0190611" G="0.0140516" T="0.829601"/>
+      <pos A="0.852645" C="0.020063" G="0.0150535" T="0.112238"/>
+      <pos A="0.874686" C="0.0230687" G="0.0451105" T="0.0571333"/>
+      <pos A="0.0961114" C="0.159168" G="0.0420628" T="0.702658"/>
+      <pos A="0.700356" C="0.0421048" G="0.070158" T="0.187381"/>
+      <pos A="0.173181" C="0.0810979" G="0.645606" T="0.100115"/>
+      <pos A="0.0441086" C="0.778504" G="0.0721618" T="0.105225"/>
+      <pos A="0.0491671" C="0.0932957" G="0.797337" T="0.0602"/>
+      <pos A="0.0570763" C="0.776724" G="0.0871033" T="0.0790961"/>
+      <pos A="0.030082" C="0.102219" G="0.158326" T="0.709373"/>
+      <pos A="0.0641466" C="0.0942036" G="0.689335" T="0.152315"/>
+      <pos A="0.0641466" C="0.116245" G="0.154319" T="0.665289"/>
+      <pos A="0.565098" C="0.0781732" G="0.0992131" T="0.257514"/>
+      <pos A="0.15016" C="0.127139" G="0.169177" T="0.553524"/>
+      <pos A="0.303298" C="0.0841006" G="0.452432" T="0.160169"/>
+      <pos A="0.125138" C="0.20621" G="0.070088" T="0.598564"/>
+      <pos A="0.167343" C="0.600165" G="0.0851865" T="0.147305"/>
+      <pos A="0.569106" C="0.123259" G="0.170349" T="0.137286"/>
+      <pos A="0.101217" C="0.128269" G="0.203412" T="0.567102"/>
+      <pos A="0.102322" C="0.31193" G="0.377118" T="0.20863"/>
+    </motif>
+  </queries>
+  <targets>
+  </targets>
+  <matches>
+  </matches>
+  <runtime cycles="47615404" seconds="47.615"/>
+</tomtom>
